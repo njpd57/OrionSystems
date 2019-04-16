@@ -33,6 +33,10 @@
     color: var(--WhiteColor);
     padding: 8px;
 }
+.header-area .navbar-brand {
+    font-size: 20px;
+    color: var(--WhiteColor);
+}
 .header-area .main-menu .navbar .nav-link:hover{
     font-style: bold;
     font-weight: 600;
