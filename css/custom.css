@@ -1,0 +1,39 @@
+/*
+ ===============
+    Colores
+ ===============
+*/
+
+:root{
+    --bgColor: #040404;
+    --WhiteColor : #ffffff;
+    --GreyColor : #6E6E6E;
+    --redColor : #e46A6B;
+    --lowgrey : #3F3F3F;
+}
+
+
+/*
+
+    ================
+        Header
+    ================
+*/
+
+.header-area .main-menu,
+.header-area .main-menu .dropdown-menu{
+    background: var(--lowgrey);
+    box-shadow: 0px 3px 16px 0px rgba(0,0,0,0.1);
+}
+.header-area .main-menu .navbar{
+    height: 10 px;
+}
+.header-area .main-menu .navbar .nav-link{
+    font-size: 14px;
+    color: var(--WhiteColor);
+    padding: 8px;
+}
+.header-area .main-menu .navbar .nav-link:hover{
+    font-style: bold;
+    font-weight: 600;
+}
